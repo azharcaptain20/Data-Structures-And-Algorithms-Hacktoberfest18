@@ -4,6 +4,7 @@ stack_t *stack_create(void) {
     return (stack_t *)calloc(1, sizeof(stack_t));
 }
 
+//push(put the element in the array) element onto the stck array
 void stack_push(stack_t *stack, void *val) {
     stack_elem_t* new_elem = (stack_elem_t *)malloc(sizeof(stack_elem_t));
     new_elem->value = val;
@@ -11,6 +12,7 @@ void stack_push(stack_t *stack, void *val) {
     stack->top = new_elem;
 }
 
+//pop(take the element out of the array) element from the stck array
 void *stack_pop(stack_t *stack) {
     if (!stack) { return NULL; }
     void *val = NULL;
