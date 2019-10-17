@@ -70,7 +70,7 @@ int rear(struct Queue* queue)
 int main() 
 { 
     struct Queue* queue = createQueue(1000); 
-  
+    //insert into queue the following numbers
     enqueue(queue, 10); 
     enqueue(queue, 20); 
     enqueue(queue, 30); 
