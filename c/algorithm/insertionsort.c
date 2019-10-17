@@ -28,7 +28,7 @@ void insertion_sort(int a[], int size){
         }
     }
 }
-// Function to print an array 
+// Function to print an array. 
 void printArray(int A[], int size) 
 { 
     int i; 
