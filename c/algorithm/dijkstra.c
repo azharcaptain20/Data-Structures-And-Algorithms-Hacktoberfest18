@@ -22,7 +22,8 @@ int main()
     
     return 0;
 }
- 
+
+//calculates the distance of all the nodes from the source node
 void dijkstra(int G[MAX][MAX],int n,int startnode)
 {
  
